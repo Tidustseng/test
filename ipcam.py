@@ -3,8 +3,8 @@
 import cv2
 import urllib 
 import numpy as np
-stream=urllib.urlopen('http://root:robot3233@god.csie.ntu.edu.tw/axis-cgi/mjpg/video.cgi?resolution=704x480')
-# stream=urllib.urlopen('http://192.168.1.161:81/videostream.cgi?user=wuhsch&pwd=6423122')
+# stream=urllib.urlopen('http://root:robot3233@god.csie.ntu.edu.tw/axis-cgi/mjpg/video.cgi?resolution=704x480')
+stream=urllib.urlopen('http://192.168.1.161:81/videostream.cgi?user=wuhsch&pwd=6423122')
 # stream=urllib.urlopen('http://god.csie.ntu.edu.tw/videostream.cgi?user=root&pwd=robot3233')
 
 bytes=''
