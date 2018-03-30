@@ -22,3 +22,4 @@ while True:
 		if cv2.waitKey(1) ==27:
     			exit(0) 
 #This is conflict
+#Robot function code here
