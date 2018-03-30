@@ -16,8 +16,8 @@ while True:
 		jpg = bytes[a:b+2]
 		bytes= bytes[b+2:]
 
-		#i = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8),1)
-		i = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8),cv2.IMREAD_COLOR)
+		i = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8),1)
+		#i = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8),cv2.IMREAD_COLOR)
 		cv2.imshow('i',i)
 		if cv2.waitKey(1) ==27:
     			exit(0) 
