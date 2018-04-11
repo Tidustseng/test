@@ -6,7 +6,8 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
 
 while True:
-    cmd = raw_input("Please input msg:")
+    #cmd = raw_input("Please input msg:")
+    ## This is test
     cmd = '1 2'
     s.send(cmd)
     data = s.recv(1024)
