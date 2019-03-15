@@ -4,7 +4,7 @@ PORT = 8001
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
-
+#please add comment here
 while True:
     # cmd = raw_input("Please input msg:")
     cmd = '1 2'
